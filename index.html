@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .whole-wrap{
+        max-width:1000px; 
+        background-color: rgb(53, 28, 192);
+        height: auto;
+        margin: 0 auto 0 auto;
+        padding: 50px;
+       }
+     .header{
+        width: auto;
+        border: 5px solid;
+        text-align: center;
+        font-size: 20px;
+        color: red;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .main-wrap{
+        width: auto;
+        display: flex;
+        border: 5px solid;
+        color: red;
+        border-top: none;
+    }
+    .menu{
+        border-right: 5px solid;
+        width: 25%;
+        align-items: start;
+        text-align: center;
+        font-size: 20px;
+        color: red;
+       padding: 20px;
+    }
+     .inner-wrap{
+        width: 75%;
+    } 
+    .main {
+        width: 50%;
+        float: left;
+        text-align: center;
+        font-size: 20px;
+        color: red;
+        border-bottom: 5px solid;
+        padding-top:10px;
+        padding-bottom:10px;
+       
+    }
+     .right {
+        width: 50%;
+        text-align: center;
+        font-size: 20px;
+        float: right;
+        border-bottom: 5px solid;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+     .footer {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        margin-top:60px;
+        padding-bottom:10px;
+
+     }
+     /* .footer span{
+        padding-top: 300px;
+     } */
+     
+    </style>
+</head>
+<body> 
+     <div class="whole-wrap">
+        <div class="header">
+            <span>Header</span>
+        </div>
+        <div class="main-wrap">
+            <div class="menu">
+                <span>Menu</span>
+            </div>
+            <div class="inner-wrap">
+                <div class="main">
+                    <span>Main</span>
+                </div>
+                <div class="right">
+                    <span>Right</span>
+                </div>
+                <div class="footer">
+                    <span>Footer</span>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
